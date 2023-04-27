@@ -1,0 +1,19 @@
+To create virtual environment :-  
+	python -m venv fastapi-env
+
+To start virtual environment :-  
+	fastapi-env\Scripts\activate.bat
+
+
+To install fastapi on particular environmnet:- 
+	pip3 install fastapi
+
+To install uvicorn on particular machine:-
+	pip install uvicorn
+
+
+To check the version :-
+	uvicron --version  
+
+To Run the code :-
+	uvicorn main:app --reload
